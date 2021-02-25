@@ -8,10 +8,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @ComponentScan(basePackages = "be.dhofief")
 @EnableJpaRepositories
-public class FarmwatchBackendApplication {
+public class GCODEApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FarmwatchBackendApplication.class, args);
+        SpringApplication.run(GCODEApplication.class, args);
     }
 
 }
