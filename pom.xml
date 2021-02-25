@@ -62,11 +62,13 @@
 			<artifactId>h2</artifactId>
 			<version>1.4.196</version>
 		</dependency>
+		<!--
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-maven-plugin</artifactId>
 			<version>6.5.5</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>com.binance.dex.api</groupId>
 			<artifactId>binance-dex-api-client</artifactId>
@@ -79,6 +81,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<!--
 			<plugin>
 				<groupId>org.flywaydb</groupId>
 				<artifactId>flyway-maven-plugin</artifactId>
@@ -90,6 +93,7 @@
 					<locations>classpath:db/migration</locations>
 				</configuration>
 			</plugin>
+			-->
 		</plugins>
 	</build>
 
